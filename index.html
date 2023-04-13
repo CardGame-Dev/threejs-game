@@ -159,7 +159,12 @@
   
   ground.receiveShadow = true
   scene.add(ground)
-
+  
+  //Adicionando O ground
+  groundEnd.receiveShadow = true
+  scene.add(groundEnd)
+  
+  
   const light = new THREE.DirectionalLight(0xffffff, 1)
   light.position.y = 3
   light.position.z = 2
